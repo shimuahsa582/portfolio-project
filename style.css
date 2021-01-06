@@ -125,13 +125,13 @@ nav.nav_part ul li a:hover {
     margin-left: 7%;
 }
 .about_me img {
-    width: 92%;
+    width: 82%;
     height: 100%;
 }
 .about_me h2 {
     color: #3c40c6;
     text-transform: uppercase;
-    font-size: 52px;
+    font-size: 48px;
     padding-top: 28px;
     margin-left: 16px;
 }
@@ -173,7 +173,7 @@ button.about_btn:hover{
 }
 
 .pro_image img {
-    width: 456px;
+    width: 400px;
     height: 263px;
     padding: 20px 20px;
 }
@@ -215,8 +215,8 @@ section#project {
     float: left;
     height: 342px;
     background: #00a8ff;
-    width: 340px;
-    margin-left: 58px;
+    width: 348px;
+    margin-left: 66px;
     border-left: 5px solid;
     border-image: linear-gradient(180deg, blue, #b1ca25);
     border-image-slice: 1;
@@ -229,7 +229,7 @@ section#project {
 h1.services_heading {
     margin-bottom: 56px;
     text-align: center;
-    font-size: 50px;
+    font-size: 48px;
     color: #3c40c6;
 } 
 .social_icon {
@@ -324,7 +324,7 @@ a.f_link {
     text-decoration: none;
     font-size: 30px;
     color: blue;
-    margin-left: 740px;
+    margin-left: 700px;
     line-height: 27px;
 }
 p.f_paragraph {
