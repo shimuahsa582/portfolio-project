@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Baloo 2', cursive;
+    font-family: 'Oswald', sans-serif;
+}
+section{
+    padding-bottom:80px;
+    width: 100%;
+    height:auto;
+    overflow: hidden;
+}
+/* navbar part */
+nav.nav_part {
+    width: 100%;
+    height: 83px;
+    background: #efebeb;
+}
+nav.nav_part ul li {
+    display: inline-block;
+    padding-top: 26px;
+    font-size: 21px;
+    margin: 0px 32px;
+}
+nav.nav_part ul li a{
+    text-decoration: none;
+    color:black;
+    font-weight: 500;
+    font-family: 'Baloo 2', cursive;
+}
+nav.nav_part ul li a:hover {
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+
+/* header part */
+.header_part {
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+    height: 700px;
+}
+.header_part h1 {
+    padding-top: 54px;
+    font-size: 59px;
+    color: #2828ab;
+    margin-left: 6%;
+}
+.header_part h2 {
+    color:#3cd607;
+    font-size: 36px;
+    padding-top: 7px;
+    margin-left: 35px;
+    text-transform: uppercase;
+}
+
+.header_part span {
+    color: #df0832;
+    font-size: 26px;
+}
+.header_part p {
+    font-size: 36px;
+    margin-left: 36px;
+    color:  #df0832;
+    text-transform: capitalize;
+}
+.header_part h4 {
+    font-size: 22px;
+    color: #edcf09;
+    margin-top: 13px;
+    margin-left: 34px;
+    text-transform: capitalize;
+}
+.header_part h5 {
+    font-size: 22px;
+    color: #edcf09;
+    margin-left: 31px;
+    margin-top: 8px;
+    text-transform: capitalize;
+}
+.header_part a {
+    line-height: 130px;
+    text-decoration: none;
+    padding: 9px 60px;
+    background: #1414f3;
+    border-radius: 3px;
+    color: white;
+    font-size: 21px;
+    margin-left: 39px;
+    text-transform: uppercase;
+}
+ a:hover{
+    background: black;
+    color:white;
+}
+ .top_icon {
+    float: left;
+    width: 500px;
+}
+.top_icon i {
+    font-size: 26px;
+    color: #fb5200;
+    margin-left: 10px;
+    padding-left: 17px;
+}
+.top_icon i:hover {
+    background: black;
+    cursor:pointer;
+}
+.header_part img {
+    float: right;
+    padding-top: 92px;
+    width: 79%;
+    margin-right: 16%;
+}
+/* Aboit me part */
+.about_me {
+    float: left;
+    width: 40%;
+    height: 600px;
+    margin-left: 7%;
+}
+.about_me img {
+    width: 92%;
+    height: 100%;
+}
+.about_me h2 {
+    color: #3c40c6;
+    text-transform: uppercase;
+    font-size: 52px;
+    padding-top: 28px;
+    margin-left: 16px;
+}
+p.paragraph {
+    color:#00b894;
+    text-align: justify;
+    margin-left: 21px;
+    line-height: 28px;
+    font-size: 20px;
+    margin-top: 35px;
+}
+button.about_btn {
+    margin-top: 80px;
+    margin-left: 51px;
+    background: tomato;
+    padding: 18px 50px;
+    border-radius: 2px;
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+    border: none;
+    word-spacing: 6px;
+}
+button.about_btn:hover{
+    background:black;
+    color:white;
+    cursor:pointer;
+}
+/* Project part */
+.single_project {
+    float: left;
+    padding-top: 10px;
+    width: 30%;
+    height: 475px;
+    margin-left: 2%;
+    background: white;
+    color: white;
+    border-radius: 27px;
+}
+
+.pro_image img {
+    width: 456px;
+    height: 263px;
+    padding: 20px 20px;
+}
+.single_project h3 {
+    font-size: 30px;
+    margin-top: 8px;
+    margin-left: 25px;
+    color: #8181c4;
+}
+
+.single_project p {
+    line-height: 23px;
+    margin-top: 17px;
+    margin-left: 20px;
+    color: #766f6f;
+    font-size: 18px;
+    font-family: 'Baloo 2', cursive;
+}
+section#project h1 {
+    font-size: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 58px;
+    color: #3c40c6;
+}
+section#project span {
+    color: tomato;
+    font-size: 56px;
+}
+section#project {
+    width: 100%;
+    height: 635px;
+    padding-top: 30px;
+    background: #e7e4e4;
+    margin-bottom:80px;
+}
+/* services part */
+.singel_services {
+    float: left;
+    height: 342px;
+    background: #00a8ff;
+    width: 340px;
+    margin-left: 58px;
+    border-left: 5px solid;
+    border-image: linear-gradient(180deg, blue, #b1ca25);
+    border-image-slice: 1;
+    border-radius: 4px;
+}
+.singel_services:hover{
+    background: coral;
+    color:white;
+}
+h1.services_heading {
+    margin-bottom: 56px;
+    text-align: center;
+    font-size: 50px;
+    color: #3c40c6;
+} 
+.social_icon {
+    font-size: 71px;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+.singel_services h1 {
+    text-transform: capitalize;
+    color: white;
+    text-align: center;
+    margin-top: 6px;
+    font-size: 32px;
+}
+.singel_services h4 {
+    color: white;
+    font-size: 21px;
+    margin-left: 26px;
+    font-weight: 500;
+    margin-top:18px;
+}
+.singel_services p {
+    color: white;
+    font-size: 18px;
+    margin-left: 22px;
+    font-family: 'Baloo 2', cursive;
+    margin-top: 10px;
+    line-height: 22px;
+}
+/* work inquery */
+section#work_inquery {
+    background: #3c40c6;
+    margin: 2px 81px;
+    height: 135px;
+    width:85%;
+    border-radius: 28px;
+    position: relative;
+    margin-bottom:80px;
+}
+.left_single_work h1 {
+    top: 80px;
+    position: absolute;
+    width: 50%;
+    text-align: center;
+    font-size: 49px;
+    color: white;
+}
+.right_single_work {
+    float: right;
+    width: 50%;
+    text-align: center;
+    position: relative;
+    top: 90px;
+}
+.right_single_work a {
+    text-transform: uppercase;
+    background: tomato;
+    padding: 15px 90px;
+    font-size: 20px;
+    color: white;
+    border-radius: 3px;
+    text-decoration: none;
+}
+/* footer part */
+.center h2 {
+    text-align: center;
+    font-size: 50px;
+    color: blue;
+    text-transform: capitalize;
+    font-family: 'Baloo 2', cursive;
+}
+a.f_link {
+    font-size: 30px;
+    text-decoration: none;
+    color: tomato;
+    text-align:center;
+}
+.footer_images {
+    float: right;
+    width: 100%;
+    text-align: center;
+}
+.footer_images img {
+    width: 40px;
+    margin-left: 12px;
+    margin-top: 24px;
+}
+
+.f_link a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    color: blue;
+    margin-left: 740px;
+    line-height: 27px;
+}
+p.f_paragraph {
+    text-align: center;
+    line-height: 40px;
+    text-transform: capitalize;
+    color: rgb(209, 60, 92);
+    font-size: 20px;
+    margin-bottom: 30px;
+    background: rgb(238, 233, 233);
+}
